@@ -1,13 +1,89 @@
+/* just put all CSS here for the sake of ease of development */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo-icon {
+  width: 4.5rem;
+  height: 2.0rem;
+  fill: white;
+  cursor: pointer;
+}
+
+.header-tab {
+  display: table-cell;
+  padding: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.header-tab:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer {
+  text-align: right;
+  padding: 24px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer:hover {
+  text-decoration: underline white;
+}
+
+.input-container {
+  position: relative;
+  top: 120px;
+  background: white;
+  margin-left: 100px;
+  width: 600px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.input-label {
+  margin: 0px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  color: #484848;
+  line-height: 1.33333333em;
+  letter-spacing: 0.08333333em;
+}
+
+.input-box {
+  font-size: 17px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  width: 590px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 4vh;
+}
+
+.input-box:focus {
+  outline: none;
+  border: 1px solid #00A699 !important;
+}
+
+.input-button {
+  background: #FF5A5F;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 22px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
 }
